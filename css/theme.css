@@ -1,0 +1,24 @@
+.bullet {
+	float: left;
+}
+
+[contenteditable]:active,
+[contenteditable]:focus{
+	border:none;
+	outline:none;
+/*	color:#550000; */
+}
+
+/*A test to see if I can apply css to the line I'm editing*/
+[contenteditable]:focus [contenteditable]:focus{
+	color:#00FF00;
+}
+
+.selected {
+	background-color:#CCCCFF;
+}
+
+/*Changes the highlighting color*/
+::selection{
+	background: #AAAAAA;
+}
